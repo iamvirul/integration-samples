@@ -6,7 +6,7 @@ listener shopify:Listener shopifyListener = new ({apiSecretKey: string `${shopif
 service shopify:OrdersService on shopifyListener {
     remote function onOrdersCreate(shopify:OrderEvent event) returns error? {
         do {
-            log:printInfo(event.toJsonString());
+            log:printInfo("Received Shopify orders/create webhook event");
         } on fail error err {
             // handle error
             return error("unhandled error", err);
