@@ -52,7 +52,7 @@ The application follows a standard MuleSoft architecture pattern:
 Before running this application, ensure you have:
 
 - **Anypoint Studio** 7.x or later
-- **Java** 8 or 11
+- **Java** 17
 - **MySQL** database server
 - **Maven** 3.6+ (included with Anypoint Studio)
 
@@ -98,7 +98,7 @@ The application uses property files to manage database connections. I've already
 ```properties
 # Database Configuration
 db.user=root
-db.password=password
+db.password=abc123
 ```
 
 ## 🔗 API Endpoints
