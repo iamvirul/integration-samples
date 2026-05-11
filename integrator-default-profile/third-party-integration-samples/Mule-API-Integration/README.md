@@ -97,9 +97,12 @@ The application uses property files to manage database connections. I've already
 #### Configuration (`config.properties`)
 ```properties
 # Database Configuration
+# NOTE: The following credentials are placeholder values for demo purposes only.
 db.user=root
 db.password=abc123
 ```
+
+> **Note:** `db.user` and `db.password` above are intentional dummy values used for demonstration. They do not represent real credentials and must be replaced with actual values for any non-demo deployment.
 
 ## 🔗 API Endpoints
 
