@@ -5,7 +5,7 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.13.3"
+distribution-version = "2201.13.4"
 
 [[package]]
 org = "ballerina"
@@ -305,7 +305,7 @@ dependencies = [
 ]
 
 [[package]]
-org = "piosajfdpoajsdfijasdf"
+org = "wso2"
 name = "mcp"
 version = "0.1.0"
 dependencies = [
@@ -313,6 +313,6 @@ dependencies = [
 	{org = "ballerina", name = "mcp"}
 ]
 modules = [
-	{org = "piosajfdpoajsdfijasdf", packageName = "mcp", moduleName = "mcp"}
+	{org = "wso2", packageName = "mcp", moduleName = "mcp"}
 ]
 
